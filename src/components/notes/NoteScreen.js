@@ -46,7 +46,7 @@ export const NoteScreen = () => {
 
                 <input 
                     type="text"
-                    placeholder="Un titulo bien chido"
+                    placeholder="Write a title "
                     className="notes__title-input"
                     autoComplete="off"
                     name="title"
@@ -55,7 +55,7 @@ export const NoteScreen = () => {
                 />
 
                 <textarea
-                    placeholder="Que tal tu dia?"
+                    placeholder="How was your day?"
                     className="notes__text-area"
                     name="body"
                     value={ body }
